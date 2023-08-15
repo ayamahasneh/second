@@ -1,0 +1,9 @@
+[
+    {"name":"Nigiri", "description":"Nigiri sushi consists of a small hand-pressed mound of rice topped with a slice of raw fish or seafood."},
+    {"name":"Sashimi", "description":"Sashimi is thinly sliced raw seafood served without rice. It emphasizes the quality and freshness of the fish."},
+    {"name":"Maki", "description":"Maki sushi is made by rolling rice and various ingredients, such as fish, vegetables, and seaweed, into a cylindrical shape."},
+    {"name":"Temaki", "description":"Temaki sushi, also known as hand roll sushi, is a cone-shaped sushi roll wrapped in seaweed and filled with various ingredients."},
+    {"name":"Uramaki", "description":"Uramaki, or inside-out roll, is a type of sushi where the rice is on the outside and the seaweed wraps around the fillings."},
+    {"name":"Futomaki", "description":"Futomaki sushi is a thick roll that contains a variety of ingredients, often including multiple types of fish and vegetables."},
+    {"name":"Chirashi", "description":"Chirashi sushi is a bowl of sushi rice topped with a variety of sashimi, vegetables, and other ingredients."},
+    {"name":"Inari", "description":"Inarizushi consists of seasoned sushi rice stuffed into a pouch of seasoned and slightly sweetened fried tofu."}]

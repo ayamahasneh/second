@@ -1,0 +1,158 @@
+add border as raduis in title and price 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;    
+  }
+header {
+    text-align: center;
+    padding: 20px;
+    color: #800080;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+  }
+  .container {
+    margin: 10px 10px 10px 10px;
+   /*will wrap to the next line if there is not enough space on the current line. */
+    font-size: 14px;
+  }
+.section{
+    position: relative;
+    height: 120px;
+    float: right;
+    border: 2px solid black;
+    /* margin: 10px ;  */
+    padding: 30px 0px 0px 0px;
+    background: lightgray;
+    transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.section:hover {
+    background-color: maroon;}
+    .title{
+        position: absolute;
+        width: 33.3%;
+        text-align: center;
+        top: 0;
+        right: 0;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    
+    }
+    .price{
+        position: absolute;
+        bottom:  0;
+        left: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        font-weight: bold;
+        background-color: #dc4adc;
+    
+    }
+    .Shellfish>.title{
+        background: lightblue;
+    }
+    .Salmon>.title{
+        background: lightcoral;
+    }
+    .Oyster>.title{
+        background: lightgreen;
+    }
+    .cod>.title{
+        background-color: azure;
+
+    }
+    .squid>.title{
+        background-color: #63878e;
+
+    }
+    
+    .octopus>.title{
+        background-color: #482474;
+
+    }
+    .Crab>.title{
+        background-color: aquamarine;
+
+    }
+    .Tuna >.title{
+        background-color: antiquewhite;
+
+    }
+    .mussel>.title{
+        background-color: azure;
+
+    }
+
+    
+
+    .section{overflow: auto}    
+
+
+footer{
+    bottom: 0;
+    left: o;
+    position: fixed;
+    text-align: center;
+    background-color: #800080;
+    width: 100%;
+}
+
+
+
+@media (min-width: 1200px)
+{
+.section{
+    width: 25%;
+     margin-right: 10px;
+     flex-wrap: wrap;
+     margin-bottom: 10px;
+
+}
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       display: flex;
+    flex-wrap: wrap;
+    
+
+
+
+}
+  }
+
+  
+@media (min-width: 850px) and (max-width: 1199px){
+
+.section{
+margin: 5px;
+
+float: left;
+width: 48%;}
+
+}
+
+
+@media  (max-width: 859px){
+   .section{
+    display: inline;
+    margin: 5px;
+    width: 100%;
+   }
+  }
+  footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #800080;
+    width: 100%;
+}
+
+

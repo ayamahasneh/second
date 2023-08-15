@@ -1,0 +1,116 @@
+header {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+
+    font-size: 500%;
+    cursor: pointer; 
+}
+.container{
+
+    margin: 50px 0px 0px 0px;
+    height: 200px;
+}
+.section{
+    position: relative;
+    padding: 30px 0px 0px 0px;
+    height: 200px;
+    border: 1px solid black;
+    background: lightgrey;
+    color: white;
+    line-height: 25px;
+    overflow: auto;
+}
+.title{
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 4px 30px 4px 30px;
+    border-radius: 8px;
+    font-size: 125%;
+    background: lightpink;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     font-family: "Comic Sans MS", arial;
+}
+
+.price{
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px 20px 0px 0px;
+    border-radius: 10px;
+    font-size: 125%;
+    background: blueviolet;
+    color: black;
+    font-weight: bold
+}
+.chicken>.title{
+    background: lightblue;
+}
+.beef>.title{
+    background: lightcoral;
+}
+.sushi>.title{
+    background: lightgreen;
+}
+.section:hover{
+
+    background: maroon;
+}
+/*--For Windows--*/
+@media (min-width: 1200px)
+{
+    .container{
+     display: flex;
+     padding: 10px;
+    }
+    .section{
+      width: 33.3%;
+      float: right;
+      margin-right: 10px;
+    }}
+/*For tablet*/
+@media (max-width: 1199px)and (min-width:850px ) {
+    .container{
+        padding: 30px
+    }
+    .sushi {
+        width: 94%;
+        float: right;
+        margin-top: 10px;
+       
+    }
+    .beef,.chicken{
+        width: 46%;
+        margin-right: 10px;
+        float: right;
+       
+    }}
+/*--For mobile--*/
+@media (max-width: 849px)
+{
+    .container{
+    padding: 30px
+    }
+
+.section{
+      width: 100%;
+        float: right;
+        margin-bottom: 10px;
+}
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #800080;
+    width: 100%;
+}

@@ -1,0 +1,85 @@
+h1{
+  text-align: center;
+  padding-top: 140x;
+  padding-bottom: 10px;
+  color: #800080;
+  font-size: 100px;
+  font-family: 'Times New Roman';
+}
+header {
+    text-align: center;
+    padding: 20px;
+    color: #800080;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+  }
+  
+  .subsec{
+    position: relative;
+    height: 130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+    /* width: 20%;  */
+    /* align-items: center; */
+    border: 2px solid black;
+    /* margin: 10px ;  */
+    padding: 30px 50px 50px 30px;
+    background: lightgray;
+    overflow: auto;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+.subsec:hover {
+    background-color: maroon;}
+.subtitle{
+    position: absolute;
+    width: 44%;
+    text-align: center;
+    margin-top: 0;
+    top: 0;
+    /* right: 0; */
+    left: 0;
+    background-color: #cf93cf;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif}
+    
+p{
+    padding-top: 20px;
+
+}
+
+
+@media (min-width: 1200px){
+  .subsec{
+  width: 30%;
+  }
+  .con{
+    padding-left:8.25% ;
+  }
+  
+ 
+}   
+
+
+
+@media (min-width: 850px) and (max-width: 1199px){
+ .subsec{
+  width: 48%;
+  
+ }
+ .con{
+  padding-left:5%
+}
+  }
+  @media  (max-width: 859px){
+    .subsec{
+        
+        width: 100%;
+    }
+   }
